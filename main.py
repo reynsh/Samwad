@@ -5,7 +5,7 @@ import helper
 import preprocessor
 
 st.sidebar.title("Samwad")
-
+st.set_page_config(page_title="Samwad: WhatsApp Chat Analyser")
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 
 if uploaded_file is not None:
